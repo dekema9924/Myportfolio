@@ -1,11 +1,34 @@
+import { useEffect, useState } from "react"
 import Header from "./Components/Header"
-
+import Home from "./Components/Home"
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import About from "./Components/About";
 
 function App() {
+  const[isloading, setLoading] = useState(false)
+
+  useEffect(()=>{
+    setLoading(true)
+      setTimeout(()=>{
+          setLoading(false)
+      },3000)
+  },[])
 
   return (
     <>
-      <Header/>
+    {
+      isloading ? <>
+        <div className="flex items-center justify-center bg-[#befafd] h-screen">
+           <ClimbingBoxLoader color={"#137B47"} loading={isloading} size={15}/>
+        </div>
+      </> :
+      <>
+        <Header/>
+        <Home/>
+        <About/>
+      </>
+    }
+     
     </>
   )
 }

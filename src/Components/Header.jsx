@@ -7,7 +7,6 @@ import CloseIcon from '@mui/icons-material/Close';
 function Header() {
 
     const [isActive, setActive] = useState(true)
-
     const HandleClick = () => {
         setActive((prev) => !prev)
     }
@@ -15,7 +14,7 @@ function Header() {
 
     return (
         <>
-            <header className='bg-black text-white flex items-center  justify-between h-16'>
+            <header className='bg-[#befafd] flex items-center text-black  justify-between h-16 -z-50'>
                 <div className='w-16 flex items-center justify-center '>
                     <img className='w-10 ml-10 ' src={logo} alt="logo" />
                 </div>
@@ -37,10 +36,9 @@ function Header() {
                     {
                         isActive ? <Box className='hidden sm:flex'> <MenuOpenIcon onClick={HandleClick} className='cursor-pointer mr-10' /></Box> :
                             <Box className='hidden sm:flex'><CloseIcon onClick={HandleClick} className='cursor-pointer mr-10' /></Box>
-
                     }
                 </nav>
-                <nav className='fixed hidden sm:flex items-center justify-center w-full h-96 top-16  bg-black transition-all delay-200 ' style={{ left: isActive ? "700px" : "0px" }}>
+                <nav className='fixed hidden text-black sm:flex items-center justify-center w-full h-96 top-16 z-50  bg-[#befafd] transition-all delay-200 ' style={{ left: isActive ? "700px" : "0px" }}>
                     <ul className='flex gap-14 flex-col w-full justify-center items-center '>
                         <li class="p-2 px-4 group cursor-pointer text-lg font-thin" href="#">
                             Home
