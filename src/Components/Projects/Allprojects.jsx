@@ -11,7 +11,7 @@ function Allprojects() {
                     my most proud projects.
                 </p>
                 <div>
-                    <h1 className='text-yellow-600 text-3xl mt-3'>Projects</h1>
+                    <h1 className='text-yellow-600 text-3xl mt-3' style={{fontFamily: "Play"}}>Projects</h1>
 
 
                         <div className='flex flex-wrap w-[990px] sm:w-full sm:flex-col gap-5 mt-3'>

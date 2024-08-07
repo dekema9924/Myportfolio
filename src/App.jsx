@@ -5,6 +5,7 @@ import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import { Route, Routes } from "react-router-dom";
 import About from "./Components/About";
 import Allprojects from "./Components/Projects/Allprojects";
+import Footer from "./Components/Footer";
 
 function App() {
   const [isloading, setLoading] = useState(false)
@@ -32,6 +33,7 @@ function App() {
               <Route path="/allprojects" element={<Allprojects />} />
 
             </Routes>
+            <Footer/>
 
 
           </>

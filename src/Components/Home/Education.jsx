@@ -9,7 +9,7 @@ function Education() {
             <div className=' flex flex-col justify-center pb-10  '>
                 <div className='flex items-center justify-center gap-20'>
                     <div className='flex flex-col  gap-4 items-center mt-4'>
-                    <h1 className='text-4xl text-yellow-500 mt-20 text-center'>Education</h1>
+                    <h1 className='text-4xl text-yellow-500 mt-20 text-center' style={{fontFamily: "Play"}}>Education</h1>
                         <Fade direction='right'>
                             <div className=' flex items-center gap-3 bg-[#d1dbdb]  w-96 h-32 rounded-lg'>
                                 <div className='ml-3 w-16 h-16 text-center pt-4 rounded-full bg-yellow-500 '>

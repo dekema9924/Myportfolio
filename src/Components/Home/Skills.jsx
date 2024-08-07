@@ -17,7 +17,7 @@ import github from '/src/assets/images/github.svg'
 function Skills() {
     return (
         <div>
-            <h1 className='text-3xl text-yellow-500 text-center mt-5'>Tools & Platforms</h1>
+            <h1 className='text-3xl text-yellow-500 text-center mt-5' style={{fontFamily: "Play"}}>Tools & Platforms</h1>
             <div className='flex flex-row-reverse justify-around  text-white'>
                 <div className="p-10 w-74 flex sm:justify-center  gap-4 sm:gap-10 flex-wrap">
                     <div className="flex items-center gap-2 p-2 rounded-md w-60 sm:w-4/12 bg-[#179BAE]">
