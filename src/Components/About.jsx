@@ -30,10 +30,13 @@ const About = () => {
         </div>
         <div className="flex flex-col items-center justify-center  mt-5 mb-5 sm:relative absolute right-10 sm:right-0  ">
           <img className="rounded-lg w-[600px] h-[470px] object-cover " src={mypic} alt="pfp-img" />
+          <a href="https://docs.google.com/document/d/12ga3PcT8_9GfbxTzZy_f0NUrF7mdzz-I/edit?usp=sharing&ouid=113761548471156375971&rtpof=true&sd=true">
           <button class="bg-yellow-500 w-40 mt-5 m-auto hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
             <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
-            <span>Resume</span>
+            <span className='text-center pl-2'>Resume</span>
           </button>
+           </a>
+
         </div>
 
       </div>
