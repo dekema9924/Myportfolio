@@ -19,41 +19,41 @@ function Skills() {
         <div>
             <h1 className='text-3xl text-yellow-500 text-center mt-5' style={{fontFamily: "Play"}}>Tools & Platforms</h1>
             <div className='flex flex-row-reverse justify-around  text-white'>
-                <div className="p-10 w-74 flex sm:justify-center  gap-4 sm:gap-10 flex-wrap">
-                    <div className="flex items-center gap-2 p-2 rounded-md w-60 sm:w-4/12 bg-[#179BAE]">
+                <div className="p-10 sm:p-3 sm:pl-10 flex  gap-4 sm:gap-10 flex-wrap">
+                    <div className="flex items-center gap-2 p-2 rounded-md w-60 sm:w-fit bg-[#179BAE]">
                         <img className="w-7 rounded-full" src={react} alt="" />
                         <p>-</p>
                         <p className="text-white">React</p>
                     </div>
-                    <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-4/12 bg-[#179BAE]">
+                    <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-fit bg-[#179BAE]">
                         <img className="w-7 rounded-full" src={tailwind} alt="" />
                         <p>-</p>
                         <p className="text-white">Tailwind</p>
-                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-4/12 bg-[#179BAE]">
+                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-fit bg-[#179BAE]">
                         <img className="w-7 rounded-full" src={git} alt="" />
                         <p>-</p>
                         <p className="text-white">Git</p>
-                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-4/12 bg-[#179BAE]">
+                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-fit bg-[#179BAE]">
                         <img className="w-7 rounded-full" src={github} alt="" />
                         <p>-</p>
                         <p className="text-white">Github</p>
-                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-4/12 bg-[#179BAE]">
+                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-fit bg-[#179BAE]">
                         <img className="w-7 rounded-full" src={nodejs} alt="" />
                         <p>-</p>
                         <p className="text-white"> Nodejs</p>
-                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-4/12 bg-[#179BAE]">
+                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-fit bg-[#179BAE]">
                         <img className="w-7 rounded-full" src={mongodb} alt="" />
                         <p>-</p>
                         <p className="text-white">MongoDb</p>
-                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-4/12 bg-[#179BAE]">
+                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-fit bg-[#179BAE]">
                         <img className="w-7 rounded-full" src={js} alt="" />
                         <p>-</p>
                         <p className="text-white">JavaScript</p>
-                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-4/12 bg-[#179BAE]">
+                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-fit bg-[#179BAE]">
                         <img className="w-7 rounded-full" src={mysql} alt="" />
                         <p>-</p>
                         <p className="text-white">Mysql</p>
-                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-4/12 bg-[#179BAE]">
+                    </div> <div className="flex items-center gap-2  p-2 rounded-md w-60 sm:w-fit bg-[#179BAE]">
                         <img className="w-7 rounded-full" src={vite} alt="" />
                         <p>-</p>
                         <p className="text-white">Vite</p>

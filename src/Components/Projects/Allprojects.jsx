@@ -6,7 +6,7 @@ function Allprojects() {
     return (
         <>
             <div className='mt-20 p-10 text-gray-400'>
-                <p className='w-[500px] sm:w-96'>On my free time, I work on projects to build and improve my skills as a developer.
+                <p className='w-[500px] sm:w-[330px]'>On my free time, I work on projects to build and improve my skills as a developer.
                     There is no better way to get experience than real-life projects. Explore my repositories of
                     my most proud projects.
                 </p>

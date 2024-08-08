@@ -10,6 +10,10 @@ body{
     color: black;
 }
 
+/* *{
+    border: 2px solid red;
+} */
+
 
 .rotate{
     animation-name: float;
